@@ -16,10 +16,6 @@ func main() {
 
 	var runeVar rune = 'e';
 	fmt.Printf("%v, %T", runeVar, runeVar);
-
-	
-
-
 }
 
 
