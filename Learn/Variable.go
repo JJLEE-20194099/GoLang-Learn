@@ -11,6 +11,8 @@ var (
 );
 // global and block scope
 
+var N int = 10
+
 func main() {
 	var i int = 10;
 	var s string;
