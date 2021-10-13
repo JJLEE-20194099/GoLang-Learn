@@ -2,12 +2,18 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 const (
 	a = 42
 	b = 54
+)
+
+const (
+	red = iota
+	yellow
+	black
+	white
 )
 
 func main() {
@@ -24,5 +30,8 @@ func main() {
 	// fmt.Printf("%v, %T\n", error, error)
 	// go lang là ngôn ngữ biên dịch khi biên dịch thì hàm sqrt.math() chưa được chạy 
 	// nên gán cho const thì sẽ sinh ra lỗi
+
+	fmt.Printf("%v, %T\n", white, white)
+
 	
 }	
